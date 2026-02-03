@@ -81,5 +81,5 @@ if __name__ == "__main__":
         click_with_certainty(r"..\resources\images\button_login.png")
         #time.sleep(1)
         if click_with_certainty(r"..\resources\images\button_enter_game.png") is not None:
-            raise ImageNotFoundException
+            raise pya.ImageNotFoundException
         #time.sleep(1)
