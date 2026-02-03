@@ -1,0 +1,4 @@
+# Format :
+# window_name account_name
+# Example :
+# Killer1 alan_123
