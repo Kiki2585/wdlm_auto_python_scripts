@@ -1,11 +1,15 @@
 # wdlm_auto_python_scripts
 This is built for Windows
-I was bored of opening 4 clients and logging into it. So, I made a script for me. 
-It also renames your window according to the name you provide in "account_names.txt"
+I was bored of opening 4 clients and logging into it. So, I made scripts for me. 
+1. "auto_login_wdlm.py" 
+   It also renames your window according to the name you provide in "account_names.txt"
+2. "auto_produce.py"
+   just a template for automating any bullk manufacture.
 
-How Does it work: ( Script assumes your password is the same for all accounts and omits the password input. Can be added soon if needed. )
+# How Does it work: 
+( Script assumes your password is the same for all accounts and omits the password input. Can be added soon if needed. )
 
-1. Put your wdlm's .exe file in the filepath
+1. Put your wdlm's .exe file in the filepath of "auto_login_wdlm.py"
 2. Rename "account_names_example.txt" to "account_names.txt"and put your info into "account_names.txt" with the following format:
    
   window_name_you_wanna_have account_name
