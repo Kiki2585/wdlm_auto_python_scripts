@@ -1,11 +1,8 @@
 import subprocess
 import time
-
-import win32api
 import win32gui
 import win32process
 import pyautogui as pya
-from pyautogui import ImageNotFoundException
 
 titles = {}
 # Extractor for the accounts
